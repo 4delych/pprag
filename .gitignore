@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.pytest-tmp/
+.env
+.local-qdrant/
+artifacts/runs/
+*.pyc
+
+# Generated talk assets and browser verification files stay local.
+artifacts/*
+!artifacts/report.md
+google-docs-test.png

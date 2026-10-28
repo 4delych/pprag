@@ -1,0 +1,8 @@
+[
+  {"question": "Как настроить и запустить TaskBoard?", "answerable": true, "expected_source": "getting-started.md", "expected_section": "Настройка и запуск", "facts": ["DATABASE_URL", "alembic upgrade head", "uvicorn app.main:app --port 8000"]},
+  {"question": "Как сменить порт на 8080?", "answerable": true, "expected_source": "configuration.md", "expected_section": "Порт приложения", "facts": ["APP_PORT=8080", "--port 8080"]},
+  {"question": "Что делать, если порт занят?", "answerable": true, "expected_source": "troubleshooting.md", "expected_section": "Порт занят", "facts": ["APP_PORT", "--port"]},
+  {"question": "Как проверить, что TaskBoard работает?", "answerable": true, "expected_source": "getting-started.md", "expected_section": "Проверка запуска", "facts": ["/health", "ok"]},
+  {"question": "Как настроить SAML и корпоративный единый вход в TaskBoard?", "answerable": false},
+  {"question": "Сколько стоит коммерческая лицензия TaskBoard?", "answerable": false}
+]

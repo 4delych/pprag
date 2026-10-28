@@ -1,0 +1,3 @@
+# Optional: regenerate code images and explanatory figures on Windows.
+Pillow>=12,<14
+Pygments>=2.19,<3
